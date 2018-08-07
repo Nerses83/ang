@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first';
+
+  users = [
+    {name: 'WFM 1'},
+    {name: 'WFM 2'},
+    {name: 'WFM 3'},
+    {name: 'WFM 4'},
+    {name: 'WFM 5'},
+    {name: 'WFM 6'},
+    {name: 'WFM 7'},
+  ];
+
 }
