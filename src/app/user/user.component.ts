@@ -9,5 +9,9 @@ import {Component, Input} from '@angular/core';
 
 export class UserComponent {
   @Input() user;
+
+  onClick() {
+    console.log('click');
+  }
 }
 
