@@ -9,9 +9,11 @@ import {Component, Input} from '@angular/core';
 
 export class UserComponent {
   @Input() user;
+  isMarked = false;
 
   onClick() {
     console.log('click');
+    this.isMarked = true;
   }
 }
 
